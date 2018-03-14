@@ -2,7 +2,6 @@ if [ -d $1 ]; then
   echo "error: $1 dir 文件已存在"
   exit
 else
-  cd ~/Desktop
   mkdir $1
   cd $1
   mkdir css js
