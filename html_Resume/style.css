@@ -1,4 +1,4 @@
-.clearfix::after {
+.clearfix::after{
     content: '';
     display: block;
     clear: both;
@@ -73,11 +73,12 @@ a {
 }
 /* mainContent */
 .userCard {
-    border: 1px red solid;
-    width: 940px;
+    max-width: 940px;
     background-color: white;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -340px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .pictureAndText {
     padding: 50px;
@@ -154,4 +155,31 @@ a {
     height: 30px;
     fill: white;
     vertical-align: top;
+}
+/* download */
+body>main .download-wrapper{
+    text-align: center;
+}
+body > main .download{
+    border: 1px solid #cdcfd1;
+    display: inline-block;
+    font-size: 14px;
+    padding: 21px 55px;
+    line-height: 20px;
+    background: #efefef;
+    margin: 32px 0px;
+    border-radius: 2px;
+    transition: box-shadow 0.3s;
+    color: #3d4451;
+}
+body > main .download:hover{
+    box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.2);
+}
+body > main .selfIntroduction{
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    font-family: kai;
+    line-height: 1.8;
 }
